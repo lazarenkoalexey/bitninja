@@ -10,6 +10,7 @@ case "$1" in
 "nginx" ) pathLog="/var/log/nginx";;
 "nginxphp" ) pathLog="/var/log/nginx";;
 "varnish" ) pathLog="/var/log/varnish";;
+"tomcat" ) pathLog="/opt/tomcat/logs";;
 esac
 
 [[ ! -z ${pathLog} ]] && {
